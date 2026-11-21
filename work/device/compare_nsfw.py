@@ -28,7 +28,7 @@ THRESHOLD = 0.25          # content_analyser.py:detect_with_nsfw_2
 
 
 def score(v):
-	return float(v[0] - v[1])
+	return -1.0
 
 
 def main():
